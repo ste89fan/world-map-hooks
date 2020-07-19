@@ -1,38 +1,72 @@
-.App {
+.worldMap {
+  border: 1px solid;
+}
+
+.jvectormap-tip {
+  display: none !important;
+}
+
+.title {
+  text-transform: capitalize;
+  text-align: center;
+  color: yellow;
+}
+
+.visitList {
+  text-transform: capitalize;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.titleField {
+  background-color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.addTolist {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-transform: capitalize;
+}
+
+.countryList {
+  margin-bottom: 30px;
+}
+
+.divItem {
+  margin-bottom: 15px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.itemName {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.deleteAll {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btnField {
+  margin-top: 10px;
+}
+
+.btnDelete {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.controlButtons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-around;
 }
